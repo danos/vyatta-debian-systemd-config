@@ -1,3 +1,9 @@
+vyatta-debian-systemd-config (5) unstable; urgency=medium
+
+  * DANOS Import master
+
+ -- Nicholas Brown <nick.brown@att.com>  Fri, 08 Nov 2019 13:40:31 +0000
+
 vyatta-debian-systemd-config (3.1) unstable; urgency=medium
 
   * DANOS Import
