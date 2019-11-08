@@ -1,0 +1,13 @@
+Source: vyatta-debian-systemd-config
+Section: contrib/net
+Priority: extra
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.4
+
+Package: vyatta-debian-systemd-config
+Architecture: all
+Depends: ${misc:Depends}, vyatta-debian-system-config (>= 1.8),
+Pre-Depends: systemd
+Description: Vyatta changes to the Debian default configuration
+ This package includes the Vyatta changes to the Debian default configuration.
